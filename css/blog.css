@@ -1,0 +1,120 @@
+/* banner图板块-------------------------------------------------------------------- */
+
+.blog_banner {
+    height: 220px;
+    width: 100%;
+    background: url(../img/page-banner.jpg) no-repeat center;
+    padding-top: 130px;
+}
+
+.blog_banner h1 {
+    font-size: 56px;
+    width: 1140px;
+    height: 60px;
+    text-align: center;
+    color: #ffffff;
+    font-style: italic;
+}
+
+
+/* 博客部分------------------------------------------------------------------------- */
+
+.blog_wrap {
+    width: 970px;
+    margin: auto;
+    margin-top: 72px;
+}
+
+.blog_img1,
+.blog_img2,
+.blog_img3 {
+    width: 100%;
+    height: 190px;
+    padding-top: 160px;
+}
+
+.blog_img1 {
+    background: url(../img/blog/3.jpg);
+}
+
+.blog_img2 {
+    background: url(../img/blog/4.jpg);
+}
+
+.blog_img3 {
+    background: url(../img/blog/5.jpg);
+}
+
+.read {
+    width: 170px;
+    height: 32px;
+    text-align: center;
+    color: #ffffff;
+    line-height: 32px;
+    border: #ffffff 2px solid;
+    margin: auto;
+    display: none;
+}
+
+.blog_t_wrap {
+    height: 240px;
+    width: 896px;
+    background: #ffffff;
+    padding: 32px 37px
+}
+
+.fashion_n {
+    width: 92px;
+    height: 25px;
+    background: #e2214b;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.span_t {
+    font-size: 14px;
+    color: #9b9b9c;
+    margin-top: -25px;
+}
+
+.blgt_big {
+    font-size: 34px;
+    font-weight: bold;
+    color: #272727;
+}
+
+.blgt_big :hover {
+    color: #e2214b;
+}
+
+.auth span {
+    font-size: 18px;
+    color: #9b9b9c;
+}
+
+.auth span a {
+    color: #9b9b9c;
+    font-weight: bold;
+}
+
+.auth {
+    margin-top: 22px;
+    margin-bottom: 22px;
+}
+
+
+/* 白条 */
+
+.white_line {
+    width: 1140px;
+    height: 60px;
+    margin: auto;
+    background: #ffffff;
+    color: #e2214b;
+    font-size: 40px;
+    text-align: center;
+    line-height: 60px;
+    margin-top: 55px;
+}

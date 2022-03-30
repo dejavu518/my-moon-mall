@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>博客</title>
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/blog.css">
+    <script src="js/jquery-3.5.1.min.js"></script>
+</head>
+
+<body>
+    <!-- 注册/登陆栏 ------------------------------------------------------------------------------------------------->
+    <div style="background: #272727;">
+        <ul class="head">
+            <li class="fl head_l">
+                <a href="#">注册</a>
+                <span class="head_line">|</span>
+                <a href="#">登录</a>
+            </li>
+            <li class="fr head_r">
+                <a href="#" class="lan">语言</a>
+                <div class="fr">
+                    <span>USD</span>
+                    <img src="img/icons/head-arrow.png" class="head_arrow">
+                    <ul class="lan_choose">
+                        <li><a>USD</a></li>
+                        <li><a>URO</a></li>
+                        <li><a>GBP</a></li>
+                    </ul>
+                    <div class="clear"></div>
+                </div>
+                <div class="clear"></div>
+            </li>
+            <div class="clear"></div>
+        </ul>
+    </div>
+    <!-- 头部导航栏 --------------------------------------------------------------------------------------------------->
+    <div class="header-bottom">
+        <div class="wrap">
+            <div class="logo fl">
+                <img src="img/logo.png" />
+            </div>
+            <ul class="main-menu fl">
+                <li class="home fl">
+                    <a href="homepage.html">首页</a>
+                    <div class="active"></div>
+                    <ul class="second">
+                        <li><a href="#">首页1</a></li>
+                        <li><a href="#">首页2</a></li>
+                        <li><a href="#">首页3</a></li>
+                    </ul>
+                </li>
+                <li class="shop fl">
+                    <a href="shop.html">商品</a>
+                    <div class="line"></div>
+                    <div class="second">
+                        <div class="column fl">
+                            <ul>
+                                <li class="first-child"><a href="#">配饰</a></li>
+                                <li><a href="#">皮革</a></li>
+                                <li><a href="#">太阳眼镜</a></li>
+                                <li><a href="#">皮带</a></li>
+                                <li><a href="#">戒指</a></li>
+                                <li><a href="#">毛衣</a></li>
+                                <li><a href="#">包包</a></li>
+                            </ul>
+                        </div>
+                        <div class="column fl">
+                            <ul>
+                                <li class="first-child"><a href="#">男装</a></li>
+                                <li><a href="#">衬衣& 上衣</a></li>
+                                <li><a href="#">裙装</a></li>
+                                <li><a href="#">泳装</a></li>
+                                <li><a href="#">牛仔裤</a></li>
+                                <li><a href="#">鞋子</a></li>
+                                <li><a href="#">针织衫</a></li>
+                            </ul>
+                        </div>
+                        <div class="column fl">
+                            <ul>
+                                <li class="first-child"><a href="#">女装</a></li>
+                                <li><a href="#">礼服</a></li>
+                                <li><a href="#">T恤</a></li>
+                                <li><a href="#">牛仔裤 & 长裤</a></li>
+                                <li><a href="#">夹克 & 大衣</a></li>
+                                <li><a href="#">针织衫</a></li>
+                                <li><a href="#">睡衣</a></li>
+                            </ul>
+                        </div>
+                        <div class="column fl">
+                            <a href="#"><img src="img/menu-image.png" /></a>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                </li>
+                <li class="pages fl">
+                    <a href="#">我的</a>
+                    <div class="line"></div>
+                    <ul class="second">
+                        <li><a href="cart.html">购物车</a></li>
+                        <li><a href="#">待付款</a></li>
+                        <li><a href="#">全部订单</a></li>
+                        <li><a href="#">待收货</a></li>
+                        <li>
+                            <a href="#">订单详情</a>
+                            <ul class="third">
+                                <li><a href="#">STYLE1</a></li>
+                                <li><a href="#">STYLE2</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">商品</a>
+                            <ul class="third">
+                                <li><a href="#">商品左侧导航栏</a></li>
+                                <li><a href="#">商品右侧导航栏</a></li>
+                                <li><a href="#">商品标语</a></li>
+                                <li><a href="#">商品列表</a></li>
+                                <li><a href="#">商品栏2</a></li>
+                                <li><a href="#">商品栏3</a></li>
+                                <li><a href="#">商品栏4</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">博客</a></li>
+                        <li><a href="#">单页</a></li>
+                        <li><a href="#">404页</a></li>
+                    </ul>
+                </li>
+                <li class="blog fl">
+                    <a href="blog.html">博客</a>
+                    <div class="line"></div>
+                </li>
+                <li class="contact fl">
+                    <a href="contact.html">联系</a>
+                    <div class="line"></div>
+                </li>
+                <div class="clear"></div>
+            </ul>
+            <div class="search-cart fr">
+                <div class="cart fr">
+                    <div class="cart-btn">
+                        <img src="img/icons/shopping-car.png" />
+                    </div>
+                    <div class="cart-wrapper">
+                        <p class="title" style="text-transform: uppercase;">购物车</p>
+                        <ul class="products">
+                            <li>
+                                <div class="fl" style="margin: 0 24px;">
+                                    <img src="img/header-cart/1.jpg" />
+                                </div>
+                                <div class="cont fl">
+                                    <p style="color: #272727;font-size: 12px">窄脚裤</p>
+                                    <p style="color: #9b9b9c;font-size: 10px;margin-bottom: 5px;">Color: Philipha Wash</p>
+                                    <p class="price" style="font-size: 14px;color: #e2214b;">$ 99 x 1</p>
+                                </div>
+                                <div class="fr">
+                                    <img src="img/icons/no.png" class="nono" />
+                                </div>
+                                <div style="clear: both;"></div>
+                            </li>
+                            <li style="margin-top: 24px;margin-bottom: 15px;">
+                                <div class="fl" style="margin: 0 24px;">
+                                    <img src="img/header-cart/2.jpg" />
+                                </div>
+                                <div class="cont fl">
+                                    <p style="color: #272727;font-size: 12px">眼镜太阳镜</p>
+                                    <p style="color: #9b9b9c;font-size: 10px;margin-bottom: 5px;">Color: Philipha Wash</p>
+                                    <p class="price" style="font-size: 14px;color: #e2214b;">$ 199 x 5</p>
+                                </div>
+                                <div class="fr">
+                                    <img src="img/icons/no.png" class="nono" />
+                                </div>
+                                <div style="clear: both;"></div>
+                            </li>
+                        </ul>
+                        <div class="total-price">
+                            <p class="fl" style="border-right: 1px solid #dfdfdf;text-transform: uppercase;">总数</p>
+                            <p class="fr">$ 1094.99</p>
+                            <div style="clear: both;"></div>
+                        </div>
+                        <div class="view-cart">
+                            <a href="cart.html"><span style="text-transform: uppercase;">查看购物车</span></a>
+                        </div>
+                        <p class="cart-footer" style="text-transform: uppercase;">进行结算</p>
+                    </div>
+                </div>
+                <div class="search fr">
+                    <div class="search-btn fl">
+                        <img src="img/icons/search.png" />
+                    </div>
+                    <div class="search-input fl">
+                        <input placeholder="&nbsp&nbsp搜索..." />
+                    </div>
+                    <div class="clear"></div>
+                </div>
+                <div class="clear"></div>
+            </div>
+            <div class="clear"></div>
+        </div>
+    </div>
+    <!-- banner图板块----------------------------------------------------------------------------- -->
+    <div class="blog_banner">
+        <h1>博客</h1>
+    </div>
+    <div class="blog_wrap">
+        <div style="margin-bottom: 55px;">
+            <!-- 图片 -->
+            <div class="blog_img1">
+                <div class="read">继续阅读</div>
+            </div>
+            <!-- 文字 -->
+            <div class="blog_t_wrap">
+                <div style="margin-bottom: 17px;">
+                    <div class="fashion_n fl">时尚新闻</div>
+                    <div class="fr span_t">
+                        <span>12</span>
+                        <span>评论</span>
+                        <span>|</span>
+                        <span>10</span>
+                        <span>分享</span>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+                <a href="#" class="blgt_big">&nbsp&nbsp:&nbsp&nbsp埃德&nbsp.&nbsp雷德梅尼向你展示如何为2018年新年新时尚趋势做准备</a>
+                <div class="auth">
+                    <span>By</span>
+                    <span><a href="#">Shanon Cold</a></span>
+                    <span>| Dec 31, 2018</span>
+                </div>
+                <p style="font-size: 13px;">：洛伦·伊普苏姆·多洛尔，为这位尊贵的精英祝圣。你永远不会忘记我。</p>
+            </div>
+        </div>
+        <div style="margin-bottom: 55px;">
+            <!-- 图片 -->
+            <div class="blog_img2">
+                <div class="read">继续阅读</div>
+            </div>
+            <!-- 文字 -->
+            <div class="blog_t_wrap">
+                <div style="margin-bottom: 17px;">
+                    <div class="fashion_n fl">时尚新闻</div>
+                    <div class="fr span_t">
+                        <span>12</span>
+                        <span>评论</span>
+                        <span>|</span>
+                        <span>10</span>
+                        <span>分享</span>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+                <a href="#" class="blgt_big">这里是你如何开始自己的电子商务业务 ，开始新鲜或重新品牌退出？</a>
+                <div class="auth">
+                    <span>By</span>
+                    <span><a href="#">Rachel Thompson</a></span>
+                    <span>| Dec 25, 2018</span>
+                </div>
+                <p style="font-size: 13px;">亿邦动力网是国内最大的电子商务专业媒体,围绕B2B、B2C、C2C、跨境电商、移动电商、电商服务、零售、电商资本、电商政策等领域与方向,提供新闻、案例、数据、评论。</p>
+            </div>
+        </div>
+        <div style="margin-bottom: 55px;">
+            <!-- 图片 -->
+            <div class="blog_img3">
+                <div class="read">继续阅读</div>
+            </div>
+            <!-- 文字 -->
+            <div class="blog_t_wrap">
+                <div style="margin-bottom: 17px;">
+                    <div class="fashion_n fl">生活</div>
+                    <div class="fr span_t">
+                        <span>12</span>
+                        <span>评论</span>
+                        <span>|</span>
+                        <span>10</span>
+                        <span>分享</span>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+                <a href="#" class="blgt_big">2018年，可穿戴技术取得了长足进步，但仍有很长的路要走</a>
+                <div class="auth">
+                    <span>By</span>
+                    <span><a href="#">Devid Leo</a></span>
+                    <span>| Dec 23, 2018</span>
+                </div>
+                <p style="font-size: 13px;">1967 年是“意大利成衣诞生”的重要年份, 也是米兰作为世界性的时装之都开始崛起的一年。这一年，米兰时装周正式创立，一批冠以设计师本人名字的意大利成衣品牌应运而生</p>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div class="white_line">...</div>
+    </div>
+    <!-- 提交电话-------------------------------------------------------------------------------- -->
+    <div class="man_bg" style="margin-top:55px;">
+        <h2>得 到 任 何 报 价 的 通 知</h2>
+        <p>订阅我们的通讯，以获得有关促销活动的通知</p>
+        <div class="sub">
+            <input placeholder=" 您的电邮地址" class="fl" />
+            <div class="fl sub_button">提交</div>
+            <div class="clear"></div>
+        </div>
+    </div>
+    <!-- 顶级品牌板块 -------------------------------------------------------------------------------->
+    <div class="top_brands">
+        <h1 class="fl">顶级品牌</h1>
+        <div class="top_wrap fl">
+            <div class="top_big">
+                <img src="img/brands/1.png">
+                <img src="img/brands/2.png">
+                <img src="img/brands/3.png">
+                <img src="img/brands/4.png">
+                <img src="img/brands/1.png">
+                <img src="img/brands/2.png">
+                <img src="img/brands/3.png">
+                <img src="img/brands/4.png">
+            </div>
+        </div>
+        <div class="clear"></div>
+    </div>
+    <!-- 箭头 -->
+    <div class="top_arrows">
+        <div class="top_l fl">
+            <img src="img/icons/view-arrow.png">
+        </div>
+        <div class="top_r fr">
+            <img src="img/icons/view-arrow.png">
+        </div>
+    </div>
+    <!-- 页面尾部 --------------------------------------------------------------------------------->
+    <div class="footer">
+        <div class="wrap">
+            <div class="content fl">
+                <div class="big_text">
+                    <img src="img/footer-logo.png">
+                </div>
+                <p>Lorem ipsum dolor sit amet, consec adipisicing elit, sed do eiusmod empor incididunt oloremque laudantium,</p>
+            </div>
+            <div class="content fr">
+                <p class="big_text">ADDRESS</p>
+                <p class="small_text">1025-1035 Park Ave,<br> New York, <br> NY 10028, USA<br> +1 123-456-7890<br> sales@koolinc.com
+                </p>
+            </div>
+            <div class="content fr">
+                <p class="big_text">COLLECTION</p>
+                <li>Men</li>
+                <li>Women</li>
+                <li>Kids</li>
+                <li>Accessories</li>
+                <li>Sale</li>
+                <li>Coming Soon</li>
+            </div>
+            <div class="content fr">
+                <p class="big_text">SHOP</p>
+                <li>About Us</li>
+                <li>Shipping Methods</li>
+                <li>Career</li>
+                <li>Contact</li>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <div class="footer_b">
+            <div class="wrap">
+                <p class="fl">© 2016 <a>wilylab</a>. All Rights Reserved</p>
+                <div class="fr">
+                    <img src="img/payment.png">
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div>
+    </div>
+    <!-- **************************************************************************************** -->
+    <script src="js/common.js"></script>
+</body>
+
+</html>
